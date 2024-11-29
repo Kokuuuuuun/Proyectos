@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 1 P3</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="form1">
+            <fieldset class="chespirito">
+                <legend>Catástrofes</legend>
+
+                <form action="index.html" class="forma">
+
+                    <div class="formatecara">
+                            <label for="name">Nombre de la catástrofe:</label>
+                            <input type="text" class="name" id="name">
+                            <label for="año">Año que ocurrio:</label>
+                            <input type="text" class="año" id="año">
+                            <label for="tipo">Tipo de catástrofe:</label>
+                            <input type="text" class="tipo" id="tipo">
+                            
+                            <button type="button" class="button" onclick="agregar()">Agregar</button>
+                            <button type="button" class="limpio" onclick="quitar()">Eliminar</button>
+                    </div>
+                    <div class="radio">
+                        <div class="radiosito">
+                            
+                            <label for="peligro">No Mortal</label>
+                            <input type="radio" name="nose_bye" id="peligro" class="peligro" onclick="activarPeligro()">
+                            <label for="muy_peligroso">Mortal</label>
+                            <input type="radio" name="bueno_hola" id="no" class="no" onclick="activarLetal()">
+                        </div>
+                        
+                    </div>
+                </form>
+
+                <section class="tomale">
+
+                    <div class="selecionate-container">
+                        <select name="" id="selecionate" class="selecionate" multiple></select>
+                    </div>
+                    <section class="flechita">
+                        <button type="button" class="button2" onclick="intercambiar(1)"> ->>>></button>
+                        <button type="button" class="button3" onclick="intercambiar(2)"> <<<<- </button>
+                        <button class="button4" onclick="limpiar()">Limpiar</button>
+                    </section>
+
+                    <div class="selecionate-container">
+                        <select name="" id="selecionate2" class="selecionate2" multiple></select>
+
+                    </div>
+                </section>
+            </fieldset>
+        </div>
+    </div>
+
+</body>
+<script src="mein.js"></script>
+
+</html>

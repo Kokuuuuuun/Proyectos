@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "F:/plantillas para mi pagina personal/html5up-spectral"
+		},
+		{
+			"path": "../proyecto html atualizado/proyecto html"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html5up-spectral"
+	}
+}

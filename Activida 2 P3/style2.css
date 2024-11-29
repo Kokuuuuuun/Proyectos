@@ -1,0 +1,50 @@
+body {
+    background-color:#b3b3b3;
+}
+#banner{
+    border-style: solid;
+    border-radius: 30%;
+    width: 200px;
+    height: 200px;
+    margin: 10px
+
+}
+.a {
+    border-style: solid;
+    border-color:#1DC959;
+    border-size: 30px 30px;
+    border-width: 20px;
+    border-radius: 20px;
+    background-color: #1DC959;
+    float: right;
+    margin: 10 10 0 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;}
+.producto {
+    border-style: solid;
+    border-color:#1DC959;
+    border-size: 6w0px 40px;
+    border-width: 20px;
+    border-radius: 20px;
+    background-color:#1DC959;
+    float: right;
+    margin: 10 10 0 0;
+}
+#N{
+    font-size: xx-large;
+    display: flex; 
+    justify-content: center; 
+}
+#N1{
+    display: flex; 
+    justify-content: center; 
+}
+div {display: flex; 
+    justify-content: center;}
+
+#copy{
+    background-color:#AC9390;
+
+}
